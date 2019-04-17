@@ -561,9 +561,9 @@
 		.header-right{display: none;}
 		.header-left{display: none;}
 		.bigph{height: 100%;background-size: cover;}
-		.news-item-jpg1{width: 150px; height: 150px;}
-		.news-item-jpg2{width: 150px; height: 150px;}
-		.news-item-jpg3{width: 150px; height: 150px;}
+		.news-item-jpg1{display: none;}
+		.news-item-jpg2{display: none;}
+		.news-item-jpg3{display: none;}
 		.picture
 		{
 			width: 100%;
