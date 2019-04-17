@@ -1,4 +1,5 @@
-
+	@import url('https://fonts.googleapis.com/css?family=Cuprum');
+	
 	header
 	{
 		display: flex;
@@ -11,13 +12,13 @@
 		position: absolute;
 		margin: 0px auto;
 		width: 90%;
-
+		font-family: 'Cuprum', sans-serif;
 	}
 	header a
 	{
 		list-style: none;
 		text-decoration: none;
-		font-family: "Arial";
+		font-family: 'Cuprum', sans-serif;
 		color: white;
 	}
 	.photo
@@ -113,7 +114,7 @@
 		margin: 0px;
 		background-color: white;
 		color: white;
-		font-family: "ProximaNova-Light";
+		font-family: 'Cuprum', sans-serif;
 	}
 	.first
 	{
@@ -560,9 +561,9 @@
 		.header-right{display: none;}
 		.header-left{display: none;}
 		.bigph{height: 100%;background-size: cover;}
-		.news-item-jpg1{display: none;}
-		.news-item-jpg2{display: none;}
-		.news-item-jpg3{display: none;}
+		.news-item-jpg1{width: 150px; height: 150px;}
+		.news-item-jpg2{width: 150px; height: 150px;}
+		.news-item-jpg3{width: 150px; height: 150px;}
 		.picture
 		{
 			width: 100%;
