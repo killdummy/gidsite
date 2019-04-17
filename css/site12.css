@@ -1,5 +1,4 @@
-	@import url('https://fonts.googleapis.com/css?family=Cuprum');
-	
+
 	header
 	{
 		display: flex;
@@ -12,13 +11,12 @@
 		position: absolute;
 		margin: 0px auto;
 		width: 90%;
-		font-family: 'Cuprum', sans-serif;
+
 	}
 	header a
 	{
 		list-style: none;
 		text-decoration: none;
-		font-family: 'Cuprum', sans-serif;
 		color: white;
 	}
 	.photo
@@ -114,7 +112,7 @@
 		margin: 0px;
 		background-color: white;
 		color: white;
-		font-family: 'Cuprum', sans-serif;
+		font-family: "ProximaNova-Light";
 	}
 	.first
 	{
@@ -189,13 +187,11 @@
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		font-family: "Arial";
 		font-size: 15px;
 	}
 	.text-center
 	{
 		font-size: 30px;
-		font-family: "Arial";
 	}
 	.page1-column
 	{
@@ -413,7 +409,6 @@
 	}
 	footer
 	{
-		font-family: "Arial";
 		color: white;
 	}
 	footer ul li
@@ -556,14 +551,15 @@
 		color: blue;
 		text-decoration: none;
 	}
-	@media screen and (max-width: 500px)
+	@media screen and (max-width: 320px)
 	{
 		.header-right{display: none;}
 		.header-left{display: none;}
-		.bigph{height: 100%;background-size: cover;}
+		.bigph{height: 100%; background-size: cover;}
 		.news-item-jpg1{display: none;}
 		.news-item-jpg2{display: none;}
 		.news-item-jpg3{display: none;}
+		.column{font-size: 18px;}
 		.picture
 		{
 			width: 100%;
@@ -575,14 +571,121 @@
 		.button{display: none;}
 		.proposal{min-height: 300px;}
 		header{padding: 0px;}
-		.{display: none;}
 		.sec-news{margin-left: 0px;}
-		.text-amenities{padding: 0px;}
+		.text-amenities
+		{
+			padding: 0px; 
+			font-size: 20px;
+			width: 320px;
+		}
 		.sec-news{margin-left: 0px;}
 	}
-	@media screen and (max-width: 1024px)
+	@media screen and (min-width: 321px) and (max-width: 699px)
 	{
 		.header-right{display: none;}
 		.header-left{display: none;}
+		.bigph{height: 100%; background-size: cover;}
+		.news-item-jpg1{display: none;}
+		.news-item-jpg2{display: none;}
+		.news-item-jpg3{display: none;}
+		.column{font-size: 20px;}
+		.picture
+		{
+			width: 100%;
+			height: 300px;
+		}
+		.gid{padding: 0px; margin: 0px auto;}
+		.hello{font-size: 15px;margin-top: 0px;}
+		.text-center{font-size: 20px;}
+		.button{display: none;}
+		.proposal{min-height: 300px;}
 		header{padding: 0px;}
+		.sec-news{margin-left: 0px;}
+		.text-amenities
+		{
+			padding: 0px; 
+			font-size: 20px;
+			width: 320px;
+		}
+		.sec-news{margin-left: 0px;}
+	}
+	@media screen and (min-width: 700px) and (max-width: 899px)
+	{
+		.header-right{display: none;}
+		.header-left{display: none;}
+		.proposal{min-height: 300px;}
+		.picture{height: 500px;}
+		.text-amenities
+		{
+			padding: 5px; 
+			font-size: 30px; 
+			height: 200px; 
+			width: 450px;
+			margin: 0px auto;
+		}
+		.gid{height: 450px; width: 500px; margin: 0px auto;}
+		header{padding: 0px;}
+		.image-amenities-ourgid{width: 450px; margin: 0px auto;}
+		.image-amenities-extreme{width: 450px; margin: 0px auto;}
+		.image-amenities-mute{width: 450px; margin: 0px auto;}
+		.image-amenities-hotel{width: 450px; margin: 0px auto;}
+		.image-amenities-love{width: 450px; margin: 0px auto;}
+		.image-amenities-friends{width: 450px; margin: 0px auto;}
+		.column{font-size: 23px;}
+		.page1-column{width: 320px; height: 300px;}
+		.page2-column{width: 320px; height: 300px;}
+		.page3-column{width: 320px; height: 300px;}
+		.page4-column{width: 320px; height: 300px;}
+		.serv-ul{width: 700px; grid-gap: 100px;}
+		.sec-news{margin-left: 0px;}
+		.news-item-text{font-size: 30px;}
+		.news-item-text-date{font-size: 20px;}
+		.news-item-text-tittle{font-size: 30px;}
+		.news-item-text-body{font-size: 26px;}
+		.news-item-text-continue{font-size: 30px;}
+		.head-news{font-size: 30px;}
+		.text-proposal{font-size: 30px;}
+		.title{font-size: 30px;}
+		footer a {font-size: 30px;}
+		footer {font-size: 30px;}
 	} 
+	@media screen and (min-width: 900px)
+	{
+		.header-right{display: none;}
+		.header-left{display: none;}
+		.proposal{min-height: 300px;}
+		.picture{height: 500px;}
+		.text-amenities
+		{
+			padding: 5px; 
+			font-size: 25px; 
+			height: 200px; 
+			width: 450px;
+			margin: 0px auto;
+		}
+		.gid{height: 450px; width: 500px; margin: 0px auto;}
+		header{padding: 0px;}
+		.image-amenities-ourgid{width: 450px; margin: 0px auto;}
+		.image-amenities-extreme{width: 450px; margin: 0px auto;}
+		.image-amenities-mute{width: 450px; margin: 0px auto;}
+		.image-amenities-hotel{width: 450px; margin: 0px auto;}
+		.image-amenities-love{width: 450px; margin: 0px auto;}
+		.image-amenities-friends{width: 450px; margin: 0px auto;}
+		.column{font-size: 27px;}
+		.page1-column{width: 400px; height: 300px;}
+		.page2-column{width: 400px; height: 300px;}
+		.page3-column{width: 400px; height: 300px;}
+		.page4-column{width: 400px; height: 300px;}
+		.serv-ul{width: 925px; grid-gap: 200px;}
+		.sec-news{margin-left: 0px;}
+		.news-item-text{font-size: 30px;}
+		.news-item-text-date{font-size: 20px;}
+		.news-item-text-tittle{font-size: 30px;}
+		.news-item-text-body{font-size: 26px;}
+		.news-item-text-continue{font-size: 30px;}
+		.head-news{font-size: 30px;}
+		.text-proposal{font-size: 30px;}
+		.title{font-size: 30px;}
+		footer a {font-size: 30px;}
+		footer {font-size: 30px;}
+	}
